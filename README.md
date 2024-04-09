@@ -16,5 +16,5 @@ The evaluation results can provide effective interventions to bring insights int
 [https://drive.google.com/drive/folders/1jXk-j6d2I5PXrjSe6gzVPvrydhXMrHU4?usp=sharing])
 <h4>It including： <br>
 ·Two csv files (dataset) <br>
-·A ipynb file (You can check the visualization of the data, and how I processed EDA, etc.), and <br>
+·A ipynb file (You can check the Figures, and how I processed EDA, etc.), and <br>
 ·A research report.<h4>
