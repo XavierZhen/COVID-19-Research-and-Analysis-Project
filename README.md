@@ -55,11 +55,18 @@ df.corr()['mortality_rate'].sort_values(ascending=False)
 
 ## 📂 Repository Contents  
 ```bash
-📁 notebooks/        # Jupyter notebooks (EDA, analysis, visualizations)
+📁 notebooks/        # Jupyter notebooks (EDA, analysis, visualizations) → see external link below
 📁 report/           # Analysis Report (PDF)
 📁 data/             # External dataset reference (link below)
 ```
+
 📥 Dataset Source: [Our World in Data – COVID-19](https://github.com/owid/covid-19-data)
+
+📓 Full Jupyter Notebook (with outputs): [View on Google Drive](https://drive.google.com/file/d/15ILJy1dGnQTPYd7qM6d1hzMLIxfViJju/view?usp=drive_link)
+
+
+> ⚠️ *Note: The full notebook exceeds GitHub’s 25MB limit, so it is hosted externally.  
+> A lightweight version (without outputs) is included in this repo for quick review.*
 
 ---
 
