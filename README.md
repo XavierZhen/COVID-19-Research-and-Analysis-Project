@@ -1,20 +1,75 @@
-<h1>Hi 👋 It's Xavier Welcome to my GitHub Profile</h1>
+# 👋 Hi, It's Xavier — Welcome to my GitHub Profile  
 
-<h3>About This Project<h3>
+---
 
-<h4>🧑‍⚕️🦠🌍<h4>
-<h6></h6>The aim of this research is to examine the current global impact of COVID-19, including an analysis of what factors affect mortality rates, why mortality and infection rates vary widely between countries, how strategies have done between countries for epidemic prevention and control have assisted in their prevention of the spread of COVID-19, and whether vaccination has been effective in preventing the spread of the virus. 
-  <br>
-In addition, this report will also include an analysis of the effectiveness of existing epidemic prevention methods. 
-  <br>
-The evaluation results can provide effective interventions to bring insights into countries that are not doing well in their epidemic prevention initiatives.
+## 🌍 COVID-19 Global Impact Analysis  
 
+### 📖 Abstract  
+This study investigates the **global impact of COVID-19** by analyzing differences in mortality and infection rates across countries and examining how government strategies, healthcare capacity, and vaccination programs shaped epidemic outcomes.  
+The project applies **data-driven methods** to assess the effectiveness of epidemic prevention measures and provides insights into how countries can better prepare for future global health crises.  
 
+---
 
-<h4>Due to the file size is larger than 25MB and cannot uploaded here.</h4>
-<h4>PLEASE USE THE LINK TO REDIRECT YOU TO THE GOOGLE DRIVE FILE </h4>
-[https://drive.google.com/drive/folders/1jXk-j6d2I5PXrjSe6gzVPvrydhXMrHU4?usp=sharing])
-<h4>It including： <br>
-·Two csv files (dataset) <br>
-·A ipynb file (You can check the Figures, and how I processed EDA, etc.), and <br>
-·A research report.<h4>
+## 🎯 Research Objectives  
+- 🔎 Identify determinants of **mortality and infection rates** across countries  
+- 🏛 Evaluate the **effectiveness of government policies** (lockdowns, stringency measures, border closures)  
+- 💉 Assess the **impact of vaccination campaigns** on infection control and mortality reduction  
+- 🌏 Compare outcomes across **case studies** (UK, Japan, India, Australia, Ukraine)  
+- 📊 Derive **policy implications** for epidemic preparedness and response  
+
+---
+
+## 🛠️ Methodology  
+
+**Dataset**: COVID-19 data from [Our World in Data](https://github.com/owid/covid-19-data)  
+- Timeframe: Jan 2020 – Oct 2022  
+- Coverage: 232 countries, 67 variables  
+
+**Data Processing:**  
+```python
+# Example data handling snippet
+# (not full code, just to show repo style)
+
+# Handle missing values
+df = df.dropna()
+
+# Normalize features
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+df_scaled = scaler.fit_transform(df)
+
+# Example: check correlation with mortality
+df.corr()['mortality_rate'].sort_values(ascending=False)
+```
+
+---
+## 📈 Key Findings  
+- 🏥 **Healthcare Capacity Matters**: Higher hospital bed density & GDP correlated with lower mortality  
+- 🏛 **Policy Effectiveness**:  
+  - "Herd immunity" approaches → higher mortality (e.g., UK)  
+  - Strict lockdowns → lower transmission (e.g., Japan, Australia, China)  
+- 💉 **Vaccinations**: Reduced severe outcomes, but protection waned with Omicron  
+- 🌐 **Socioeconomic & Cultural Factors** influenced compliance & outcomes  
+
+---
+
+## 📂 Repository Contents  
+```bash
+📁 notebooks/        # Jupyter notebooks (EDA, analysis, visualizations)
+📁 report/           # Analysis Report (PDF)
+📁 data/             # External dataset reference (link below)
+```
+📥 Dataset Source: [Our World in Data – COVID-19](https://github.com/owid/covid-19-data)
+
+---
+
+## ⚠️ Limitations  
+- 🗂️ Missing or inconsistent reporting in some countries  
+- 🧪 Testing/reporting differences reduce comparability  
+- 🦠 Variant-specific effects (Delta, Omicron) not fully captured  
+
+---
+
+## 🧭 Implications  
+This study highlights the **importance of healthcare infrastructure, rapid policy response, and vaccination campaigns**.  
+Future preparedness should combine **data-driven decision making** with flexible, context-specific interventions.  
